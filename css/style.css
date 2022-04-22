@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 1440px;
+    height: 732.96px;
+    background: linear-gradient(304.58deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
+}
+.logo img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 42px;
+    top: 42px;    
+}
+.logo2 h1{
+    position: absolute;
+    width: 159px;
+    height: 34px;
+    left: 60px;
+    top: 37px;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 139.8%;
+    color: #000000;    
+}
+.home {
+    position: absolute;
+    width: 60px;
+    height: 19px;
+    left: 383px;
+    top: 54px;
+}
+.home a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 94.8%;
+    color: #000000;
+}
+.home a:hover{
+    color: #FF7E00;
+    font-size: 25px;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 0px 4.71429px 4.71429px rgba(0, 0, 0, 0.25);
+}
+.menu {
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 483.93px;
+    top: 54px;    
+}
+.menu a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 94.8%;
+    text-decoration: none;
+    color: #000000;    
+}
+.menu a:hover{
+    color: #FF7E00;
+    font-size: 25px;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 0px 4.71429px 4.71429px rgba(0, 0, 0, 0.25);
+}
+.contact{
+    position: absolute;
+    width: 82px;
+    height: 19px;
+    left: 580.72px;
+    top: 54px;    
+}
+.contact a{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 94.8%;
+color: #000000;
+text-decoration: none;
+}
+.contact a:hover{
+    color: #FF7E00;
+    font-size: 25px;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 0px 4.71429px 4.71429px rgba(0, 0, 0, 0.25);
+}
+.shop{
+    position: absolute;
+    width: 52px;
+    height: 19px;
+    left: 699.84px;
+    top: 54px;
+}
+.shop a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 94.8%;
+    color: #000000;
+}
+.shop a:hover{
+    color: #FF7E00;
+    font-size: 25px;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 0px 4.71429px 4.71429px rgba(0, 0, 0, 0.25);    
+}
