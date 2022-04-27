@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,500&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,500&family=Tenor+Sans&family=Work+Sans:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -148,18 +148,21 @@ text-decoration: none;
     top: 17.7px;
     
 }
-.search h1{
+#Search{
     position: absolute;
-    width: 64px;
-    height: 17px;
+    width: 140px;
+    height: 30px;
     left: 56.56px;
-    top: 16.55px;
+    top: 10px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18.1999px;
-    line-height: 94.8%;
-    color: #000000; 
+    line-height: 94.8%; 
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: transparent;
+    color:  #FF8E0A;
 }
 .search .linha {
     position: absolute;
@@ -1255,4 +1258,363 @@ footer{
     text-align: center;
     letter-spacing: -0.02em;
     color: #44455B;
+}
+.logof img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 40px;
+    top: 3308px;    
+}
+.logof h1{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 62px;
+    top: 3302px;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22.6316px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #44455B;
+}
+.logof p{
+    position: absolute;
+    width: 229.55px;
+    height: 61px;
+    left: 40px;
+    top: 3344.18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.2431px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #FAB856;
+}
+.in a{
+    position: absolute;
+    width: 21.55px;
+    height: 21.55px;
+    left: 40px;
+    top: 3437.94px;
+    text-decoration: none;    
+}
+.in a:hover{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    left: 45px;
+    font-size: 25px;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 0px 4.71429px 4.71429px rgba(0, 0, 0, 0.25);
+}
+.mes a{
+    position: absolute;
+    width: 21.55px;
+    height: 21.55px;
+    left: 78.78px;
+    top: 3437.94px;
+    text-decoration: none;
+}
+.mes a:hover{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    left: 83.78px;
+    font-size: 25px;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 0px 4.71429px 4.71429px rgba(0, 0, 0, 0.25);
+}
+.twi a{
+    position: absolute;
+    width: 21.55px;
+    height: 21.55px;
+    left: 117.57px;
+    top: 3437.94px;
+    text-decoration: none;    
+}
+.twi a:hover{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    left: 122.57px;
+    font-size: 25px;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 0px 4.71429px 4.71429px rgba(0, 0, 0, 0.25);
+}
+
+.meta a{
+    position: absolute;
+    width: 21.55px;
+    height: 21.55px;
+    left: 156.35px;
+    top: 3437.94px;
+    text-decoration: none;
+}
+.meta a:hover{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    left: 161.35px;
+    font-size: 25px;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 0px 4.71429px 4.71429px rgba(0, 0, 0, 0.25);
+}
+.com h1{
+    position: absolute;
+    width: 127px;
+    height: 26px;
+    left: 268px;
+    top: 3299px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.6316px;
+    line-height: 26px;
+    color: #44455B;    
+}
+.com h2{
+    position: absolute;
+    width: 69px;
+    height: 26px;
+    left: 280px;
+    top: 3343px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.0877px;
+    line-height: 26px;
+    color: #44455B;
+}
+.com h3{
+    position: absolute;
+    width: 61px;
+    height: 26px;
+    left: 280px;
+    top: 3388.4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.0877px;
+    line-height: 26px;
+    color: #44455B;
+}
+.com h4{
+    position: absolute;
+    width: 34px;
+    height: 26px;
+    left: 280px;
+    top: 3433.8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.0877px;
+    line-height: 26px;
+    color: #44455B;
+}
+.com h5{
+    position: absolute;
+    width: 52px;
+    height: 26px;
+    left: 280px;
+    top: 3479.2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.0877px;
+    line-height: 26px;
+    color: #44455B;
+}
+.join h1{
+    position: absolute;
+    width: 228px;
+    height: 26px;
+    left: 428.12px;
+    top: 3294.61px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.6316px;
+    line-height: 26px;
+    color: #44455B;
+}
+.join h2{
+    position: absolute;
+    width: 338px;
+    height: 57px;
+    left: 428.12px;
+    top: 3425.01px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.0877px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #181433;
+    opacity: 0.5;
+}
+#Subscribe {
+    position: absolute;
+    width: 180.19px;
+    height: 39.04px;
+    left: 428.12px;
+    top: 3354.84px; 
+    background: #F9F9F9;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.0126px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #181433;
+    border:#F9F9F9;;      
+}
+.subs2{
+    position: absolute;
+    width: 111.87px;
+    height: 39.04px;
+    left: 608.31px;
+    top: 3354.84px;
+    background: #44455B;
+    border-radius: 5px;
+}
+.subs2 a{
+    position: absolute;
+    width: 59px;
+    height: 20px;
+    left:32.28px;
+    top: 9.76px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.0126px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-decoration: none;    
+}
+.subs2 a:hover{
+    color:#FF7E00;
+}
+.app h1{
+    position: absolute;
+    left: 836.47px;
+    top: 3301.22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28.6945px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #44455B;
+}
+.app h2{
+    position: absolute;
+    width: 373.93px;
+    height: 44px;
+    left: 847.44px;
+    top: 3359.5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.3473px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FAB856;    
+}
+.play{
+    position: absolute;
+    width: 144.02px;
+    height: 51.64px;
+    left: 847.44px;
+    top: 3434.83px;
+    border: 0.727351px solid #44455B;
+    box-sizing: border-box;
+    border-radius: 9.45556px;
+}
+.play a{
+    position: absolute;
+    width: 144.02px;
+    height: 51.64px;
+    left: 0px;
+    top: 0px;
+    border: 0.727351px solid #44455B;
+    box-sizing: border-box;
+    border-radius: 9.45556px;    
+}
+.play span{
+    position: absolute;
+    left: 60.08px;
+    top: 14.35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14.547px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #44455B;
+    text-decoration: none;
+}
+.play a span:hover{
+    color: #FF7E00;
+}
+.play img{
+    position: absolute;
+    top: 9.86px;
+    left: 9.86px;
+}
+.store{
+    position: absolute;
+    width: 144.02px;
+    height: 51.64px;
+    left: 1003.82px;
+    top: 3434.83px;
+    border: 0.727351px solid #44455B;
+    box-sizing: border-box;
+    border-radius: 9.45556px;
+}
+.store a{
+    position: absolute;
+    width: 144.02px;
+    height: 51.64px;
+    left: 0px;
+    top: 0px;
+    border: 0.727351px solid #44455B;
+    box-sizing: border-box;
+    border-radius: 9.45556px;    
+}
+.store span{
+    position: absolute;
+    left: 60.08px;
+    top: 14.35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14.547px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #44455B;
+    text-decoration: none;
+}
+.store a span:hover{
+    color: #FF7E00;
+}
+.store img{
+    position: absolute;
+    top: 9.86px;
+    left: 9.86px;
+}
+.iph img{
+    position: absolute;
+    top: 3254px;
+    left: 1212.86px;
 }
